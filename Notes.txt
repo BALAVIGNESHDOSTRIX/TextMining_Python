@@ -1,1 +1,17 @@
+1. set ---> print the unquie number in the list
+2. istitle() ---> return the true or false for check the captitalize word in start word pointthe list
+3. islower() ----> return the true or false for check the lower case in the words in the list
+4. isupper() ----> same of the [istitle()] function
+5. startswith('s') ---> for checking the if letter starting with 's' in the word
+6. endswith('s') ----> for checking if the letter ending with 's' in the words
+
+
+condtitions in checking the word list
+
+#checking the word length is above 4
+Example : [w for w in text if w > 4]
+
+#checking the word is strating point is capitialize
+Example : [w for w in text if w.istitle()]
+
 
